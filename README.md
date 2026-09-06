@@ -34,7 +34,7 @@ The data architecture is engineered for fast query speed, 100% data accuracy, an
 ## Data Model (Star Schema)
 
 <p align="center">
-  <img src="./Docs/Star_Schema_Data_Model.png" alt="Spirits Distribution Star Schema Data Model" width="100%"/>
+  <img src="./Docs/Star_Schema_Data_Model.jpg" alt="Spirits Distribution Star Schema Data Model" width="100%"/>
 </p>
 
 An optimized Star Schema was built inside Power BI to handle multi-dimensional analysis seamlessly:
