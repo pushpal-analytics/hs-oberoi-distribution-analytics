@@ -79,7 +79,7 @@ An optimized Star Schema was built inside Power BI to handle multi-dimensional a
 
 ---
 
-## Author
+## Contact
 **Pushpal Kawara**  
 *Data Analyst & BI Specialist*
 
