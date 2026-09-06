@@ -1,7 +1,7 @@
 # Spirits Distribution Intelligence — Sales & Inventory Analytics
 
 <p align="center">
-  <img src="./Docs/Daily_MIS_Dashboard.png" alt="Spirits Distribution Daily MIS Dashboard" width="100%"/>
+  <img src="./Docs/Daily_MIS_Dashboard.jpg" alt="Spirits Distribution Daily MIS Dashboard" width="100%"/>
 </p>
 
 ## Overview
