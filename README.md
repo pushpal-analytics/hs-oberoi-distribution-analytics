@@ -1,86 +1,54 @@
-# Spirits Distribution Intelligence — Sales & Inventory Analytics
+# HS Oberoi — Distribution & Inventory Analytics
 
 <p align="center">
-  <img src="./Docs/Daily_MIS_Dashboard.jpg" alt="Spirits Distribution Daily MIS Dashboard" width="100%"/>
+  <img src="./Docs/hs_oberoi_dashboard_overview.jpg" alt="HS Oberoi Power BI Dashboard" width="100%"/>
 </p>
 
-## Overview
-Spirits beverage distributors face critical operational gaps that hinder smarter and faster decision-making:
-* **Data Silos:** Sales data is scattered across multiple Excel sheets with no single source of truth.
-* **Delayed Insights:** Decision-makers rely on outdated reports instead of real-time daily metrics.
-* **Margin Leakage:** Lack of clear visibility into discount impacts, slow-moving inventory, and outlet profitability.
+Spirits distributors lose margins daily to unchecked discounting, scattered sales data, and poor inventory visibility. HS Oberoi was built to bring that chaos into a single, decision-ready view.
 
-**Spirits Distribution Intelligence** is an enterprise-grade analytics solution designed to unify sales, inventory, and outlet performance into an automated Power BI dashboard system—helping business leaders eliminate manual reporting, protect net margins, and streamline inventory capital.
+This project unifies sales, outlet performance, and inventory into one automated dashboard — helping business leaders stop manual reporting, protect net margins, and free up cash stuck in slow-moving stock.
 
 ---
 
-## Executive Presentation
-A detailed 10-slide executive summary deck covering the business problem, star schema data engine, brand profitability, and inventory valuation is available in the documentation folder:
-
-📁 **[View Presentation Deck (PDF)](./Docs/Spirits_Distribution_Intelligence_Case_Study.pdf)**
+📁 **[Download the Full Case Study (PDF)](./Docs/HS_Oberoi_Presentation.pdf)**
 
 ---
 
-## Technical Architecture & Workflow
-The data architecture is engineered for fast query speed, 100% data accuracy, and easy scalability across enterprise datasets.
+## How It Works
 
-* **Tech Stack Pipeline:** `Python` → `SQL Server` → `Power Query` → `Power BI`
-* **Data Engine:** Automated ETL and cleaning routines using Power Query and SQL Server.
-* **Data Modeling:** Modeled a Star Schema linking 1 central Fact Table to 4 Dimension Tables and a dedicated Measures table.
-* **Interactivity:** Fully interactive dashboard eliminating all manual reporting workflows.
-
----
-
-## Data Model (Star Schema)
+The foundation is a **Star Schema** — one fact table (`Sales_Transactions`) linked to dimensions for products, outlets, inventory, and date. This structure keeps reporting fast, consistent, and scalable.
 
 <p align="center">
-  <img src="./Docs/Star_Schema_Data_Model.jpg" alt="Spirits Distribution Star Schema Data Model" width="100%"/>
+  <img src="./Docs/hs_oberoi_star_schema.jpg" alt="Star Schema Data Model" width="100%"/>
 </p>
 
-An optimized Star Schema was built inside Power BI to handle multi-dimensional analysis seamlessly:
-* **Central Fact Table:** `Sales_Transactions` (tracks date, outlet_id, product_id, discount_amt, qty, and selling_price).
-* **Dimension Tables:** 
-  * `Product_Master` (brand_name, category, cost_price, product_id)
-  * `Outlet_Master` (city, outlet_name, outlet_target)
-  * `Date` (DayOfWeek, Month, MonthNum, MonthYear, Quarter, Year)
-  * `Inventory_Report` (min_stock, product_id, warehouse_stock)
-* **Calculated DAX Measures:** Centralized `Measures` table managing MTD Revenue, MTD Net Profit, Profit Margin %, Reorder Value, 7-Day Moving Averages, and Low Stock Alerts.
+To get there, I mapped the entire distribution flow — from product sourcing to outlet sales — and used that understanding to design the data pipeline and metrics that matter.
+
+<p align="center">
+  <img src="./Docs/hs_oberoi_business_flow.jpg" alt="Distribution Business Flow" width="100%"/>
+</p>
+
+The project was structured around the questions teams actually ask, not just the tools available.
+
+<p align="center">
+  <img src="./Docs/hs_oberoi_approach_flow.jpg" alt="Project Approach" width="100%"/>
+</p>
 
 ---
 
-## Key Business Insights & Findings
+## Key Findings
 
-1. **Daily MIS Snapshot:**
-   * **MTD Performance:** Tracked **₹1.34M** MTD Revenue, **₹127.22K** Net Profit at a **10.28%** Profit Margin across **15K** total units sold.
-   * **Executive Value:** Delivers a 360-degree daily health check in seconds for executive decision-makers.
-
-2. **Brand Profitability & Discount Impact:**
-   * **Margin Leakage:** Identified 4 high-revenue brands leaking net margins due to uncontrolled discounting exceeding 8%.
-   * **Action Plan:** Enforce maximum discount caps per brand to safeguard overall profitability and protect the bottom line.
-
-3. **Channel & Outlet Efficiency:**
-   * **Top Retailer:** **Wine Shop K Block** generated the highest individual revenue (**₹83,080**).
-   * **Channel Growth:** Retail outlets consistently outperform bar locations with a **+55% higher net profit margin**, signaling a clear focus for retail channel expansion.
-
-4. **Warehouse Stock Health & Reorder Alerts:**
-   * **Stock Alerts:** Identified **4 critical low-stock items** requiring **₹1.2L** in immediate reorder capital to prevent stock-outs.
-   * **Capital Optimization:** Prevents working capital from getting locked in slow-moving inventory, freeing cash flow for high-turnover SKUs.
-
-5. **Sales Patterns & Seasonality:**
-   * **Trend Identified:** Mid-week sales (Mon–Thu) drop by **40%** compared to weekend demand surges.
-   * **Action Plan:** Launch targeted mid-week promotional campaigns to smooth out demand and balance logistics inventory flow.
+- **Margin leakage** — 4 high-revenue brands were losing margins when discounts exceeded an 8% threshold.
+- **Channel profitability** — Retail outlets delivered 55% higher net profit than bar channels.
+- **Inventory risk** — 4 critical low-stock items were identified, requiring ₹1.2L in immediate reorder capital.
+- **Demand pattern** — Mid-week sales (Mon–Thu) dropped 40% compared to weekends, highlighting a clear opportunity for targeted promotions.
 
 ---
 
-## Strategic Recommendations
-* **Prioritize High-Margin Channels:** Shift field sales efforts toward retail outlets delivering 55% higher profit margins.
-* **Enforce Discount Caps:** Set maximum 8% discount limits per brand to maintain target profit margins.
-* **Automate Reorder Triggers:** Prevent stock-outs using automated low-stock alerts and automated reorder workflows.
-
----
-
-## Contact
 **Pushpal Kawara**  
-*Data Analyst & BI Specialist*
+*I am the bridge where data turns into smarter business decisions*
 
-* **Email:** pushpalanalytics@gmail.com
+📧 pushpalanalytics@gmail.com  
+📞 +91 7796004314  
+🔗 [linkedin.com/in/pushpalanalytics](https://www.linkedin.com/in/pushpalanalytics)  
+🌐 [Your Portfolio Link Here]
