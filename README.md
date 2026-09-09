@@ -1,7 +1,7 @@
 # HS Oberoi — Distribution & Inventory Analytics
 
 <p align="center">
-  <img src="./Docs/hs_oberoi_dashboard_overview.png" alt="HS Oberoi Power BI Dashboard" width="100%"/>
+  <img src="./Docs/hs_oberoi_dashboard_overview.jpg" alt="HS Oberoi Power BI Dashboard" width="100%"/>
 </p>
 
 Spirits distributors lose margins daily to unchecked discounting, scattered sales data, and poor inventory visibility. HS Oberoi was built to bring that chaos into a single, decision-ready view.
