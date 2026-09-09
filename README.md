@@ -1,7 +1,7 @@
 # HS Oberoi — Distribution & Inventory Analytics
 
 <p align="center">
-  <img src="./Docs/hs_oberoi_dashboard_overview.jpg" alt="HS Oberoi Power BI Dashboard" width="100%"/>
+  <img src="./Docs/hs_oberoi_dashboard_overview.png" alt="HS Oberoi Power BI Dashboard" width="100%"/>
 </p>
 
 Spirits distributors lose margins daily to unchecked discounting, scattered sales data, and poor inventory visibility. HS Oberoi was built to bring that chaos into a single, decision-ready view.
@@ -25,13 +25,13 @@ The foundation is a **Star Schema** — one fact table (`Sales_Transactions`) li
 To get there, I mapped the entire distribution flow — from product sourcing to outlet sales — and used that understanding to design the data pipeline and metrics that matter.
 
 <p align="center">
-  <img src="./Docs/hs_oberoi_business_flow.jpg" alt="Distribution Business Flow" width="100%"/>
+  <img src="./Docs/hs_oberoi_business_flow.png" alt="Distribution Business Flow" width="100%"/>
 </p>
 
 The project was structured around the questions teams actually ask, not just the tools available.
 
 <p align="center">
-  <img src="./Docs/hs_oberoi_approach_flow.jpg" alt="Project Approach" width="100%"/>
+  <img src="./Docs/hs_oberoi_approach_flow.png" alt="Project Approach" width="100%"/>
 </p>
 
 ---
